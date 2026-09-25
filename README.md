@@ -114,6 +114,7 @@ The HTTP-native payment protocol. Server returns 402 with payment requirements, 
 - [@azeth/provider](https://www.npmjs.com/package/@azeth/provider) - x402 provider tooling. Pre-settled smart account payments, SIWx sessions, payment agreements. ([GitHub](https://github.com/azeth-protocol/provider))
 - [xPay Facilitator](https://github.com/xpaysh/xpay-x402) - Open x402 facilitator. No auth required.
 - [@zkproofport-ai/mcp](https://www.npmjs.com/package/@zkproofport-ai/mcp) - Zero-knowledge proof generation MCP server paid via x402. Agents pay USDC on Base for ZK identity proofs (Coinbase KYC, Country, Google OIDC, Workspace, MS 365). Server-side proving in AWS Nitro Enclave TEE.
+- [Vend](https://extract.paypercall.dev/.well-known/x402) - Fee-free native-coin x402 rail: pay-per-call APIs settle in Nano (XNO), no gas.
 
 ### Other Payment Protocols
 
